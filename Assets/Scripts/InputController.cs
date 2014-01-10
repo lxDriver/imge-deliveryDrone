@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 using System.IO.Ports;
 using System;
@@ -62,4 +62,4 @@ public class InputController : MonoBehaviour {
 		Debug.Log(receivedData);
 	}
 	
-}
+}*/
