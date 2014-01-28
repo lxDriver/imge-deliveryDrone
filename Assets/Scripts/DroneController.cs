@@ -2,12 +2,14 @@
 using System.Collections;
 
 public class DroneController : MonoBehaviour {
-
+	public InputController gamePad;
+	
 	void Start () {
-		
 	}
 
 	void Update () {
+		Debug.Log (gamePad.GetButtonDown(InputController.buttons.SW1));
+
 		//	@TODO: Add rotation to drone, depending on direction  
 		Vector3 direction = this.rigidbody.transform.position - transform.position;
         if (Input.GetKey("w"))
